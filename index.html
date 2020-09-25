@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<script src="TICK-TOCK-master/lib/p5.js"></script>
+    <script src="TICK-TOCK-master/lib/p5.dom.min.js"></script>
+    <script src="TICK-TOCK-master/lib/p5.sound.min.js"></script>
+<script src="TICK-TOCK-master/lib/p5.play.js"></script>
+<script src="TICK-TOCK-master/lib/matter.js"></script>
+<script src="TICK-TOCK-master/README.md"></script>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            
+            <h1>Dictionary</h1>
+        </div>
+    </nav>
+
+    <section class="input container">
+        <h2>Find any word that exists in this world :)</h2>
+        <div class="form__wrap">
+            <div class="input__wrap">
+                <input type="text" placeholder="Type a word" id="input">
+                <button id="search">Search</button>
+            </div>
+        </div>
+    </section>   
+    <section class="data container">
+        <span class="loading">Loading...</span>
+        <p class="def"></p>
+        <div class="audio"></div>
+        <div class="not__found"></div>
+    </section>
+    <script src="./app.js"></script>
+    <script src="TICK-TOCK-master/sketch.js"></script>
+    <div class = "go">
+        <a href = "https://jaideep25.github.io/A-Game/">PLAY A GAME</a>
+    </div>
+    <div class = "g">
+        <a href = "https://jaideep25.github.io/Project-46/">PLAY A QUIZ</a>
+    </div>
+</body>
+
+</html>
